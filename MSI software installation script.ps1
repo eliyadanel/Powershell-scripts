@@ -1,4 +1,5 @@
-﻿Write-Host "This script will install a software remotely on domain PC's using an .msi installation file and log all actions in a local log file."
+#
+Write-Host "This script will install a software remotely on domain PC's using an .msi installation file and log all actions in a local log file."
 Write-Host "Where would you like to save the log file to? (Please provide the full path ending with a '\'."
 $LogFilePath = Read-Host
 Write-Host "Where would you like to save the .msi installation file? (Please provide the full path ending with a '\'."
